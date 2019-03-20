@@ -13,7 +13,7 @@ body {
 .upperContainer {
     position: absolute;
     width: 100%;
-    height: 20%;
+    height: 20vh;
 }
 
 .logoContainer {
@@ -112,7 +112,7 @@ body {
     position: absolute;
     top: 25%;
     width: 100%;
-    height: 80%;
+    height: 80vh;
 }
 
 .usersContainer {
