@@ -7,5 +7,5 @@ https://janszafran.github.io/GithubUserSearch/
 
 # Preview
 <div>
-  <img src="https://imgur.com/sZAaMU5.gif" alt="app-preview" width="80%">
+  <img src="https://imgur.com/cF4y0FS.gif" alt="app-preview" width="80%">
 </div>
