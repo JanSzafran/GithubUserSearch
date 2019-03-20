@@ -1,4 +1,4 @@
-**This is a simple example of me trying to figure out the Fetch API in vanilla JS**
+**This is a simple example of me trying to figure out the Fetch API with vanilla JS**
 
 
 <h1>LIVE</h1>
