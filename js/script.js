@@ -15,12 +15,25 @@ function getUsernameOnClick() {
     });
 }
 
+function getUsernameOnEnter() {
+    const searchfield = document.querySelectorAll('.search_1');
+    searchfield[0].addEventListener('keydown', function(e) {
+        const key = e.which || e.keyCode;
+        if(key === 13) {
+            const passedValue = getUsername();
+            passUsernameToApi(passedValue);
+            loadUser();
+        }
+    });
+}
+
 function passUsernameToApi(element) {
     const passedValue = getUsername();
     username = passedValue;
 }
 
 getUsernameOnClick();
+getUsernameOnEnter();
 
 
 function loadUser () {
